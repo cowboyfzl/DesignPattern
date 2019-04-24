@@ -10,8 +10,19 @@
 #import "CombinationMark.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CombinationVertex : UIView <CombinationMark>
+@interface CombinationVertex : UIView <CombinationMark, NSCopying>
+{
+    @protected
+    CGPoint _location;
+}
 
+@property (nonatomic, strong) UIColor *color;
+@property (nonatomic, assign) CGFloat size;
+@property (nonatomic, assign) CGPoint location;
+@property (nonatomic, assign) NSInteger count;
+@property (nonatomic, assign) id<CombinationMark> lastChild;
+- (id)copyWithZone:(NSZone * _Nullable)zone;
+- (instancetype)initWithLocation:(CGPoint )alocation;
 @end
 
 NS_ASSUME_NONNULL_END

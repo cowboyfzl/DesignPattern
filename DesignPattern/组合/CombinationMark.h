@@ -10,16 +10,18 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol CombinationMark <NSObject>
+@protocol CombinationMark <NSObject, NSCopying>
 @property (nonatomic, strong) UIColor *color;
-@property (nonatomic, assign) CGSize size;
+@property (nonatomic, assign) CGFloat size;
 @property (nonatomic, assign) CGPoint location;
 @property (nonatomic, assign) NSInteger count;
-@property (nonatomic, assign) id<Mark> lastChild;
-- (void)addMark:(id<Mark>)mark;
-- (void)removeMark:(id<Mark>)mark;
-- (void)childAtIndex:(NSInteger )index;
-- (void)drawWithContext:(CGContextRef)context;
+@property (nonatomic, assign) id<CombinationMark> lastChild;
+@optional
+- (void)addMark:(id<CombinationMark>)mark;
+- (void)removeMark:(id<CombinationMark>)mark;
+- (id<CombinationMark>)childMarkAtIndex:(NSInteger )index;
+- (id)copyWithZone:(NSZone *)zone;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CombinationMark.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CombinationStroke : UIView
+@interface CombinationStroke : UIView <CombinationMark>
 
 @end
 

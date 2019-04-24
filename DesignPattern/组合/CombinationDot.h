@@ -6,12 +6,16 @@
 //  Copyright © 2019 法正磊. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CombinationVertex.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CombinationDot : UIView
-
+@interface CombinationDot : CombinationVertex
+{
+    @private
+    UIColor *_color;
+    CGFloat _size;
+}
 @end
 
 NS_ASSUME_NONNULL_END

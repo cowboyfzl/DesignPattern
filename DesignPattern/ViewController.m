@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MarkHeader.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self markTest];
     // Do any additional setup after loading the view.
+}
+
+- (void)markTest {
+    //id <CombinationMark> patternTemplate = []
 }
 
 

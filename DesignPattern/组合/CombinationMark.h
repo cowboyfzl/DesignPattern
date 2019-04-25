@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeMark:(id<CombinationMark>)mark;
 - (id<CombinationMark>)childMarkAtIndex:(NSInteger )index;
 - (id)copyWithZone:(NSZone *)zone;
-
+- (id)copy;
 @end
 
 NS_ASSUME_NONNULL_END

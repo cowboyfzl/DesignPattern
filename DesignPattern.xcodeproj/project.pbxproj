@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64868A6F2272734500F89401 /* MarkHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkHeader.h; sourceTree = "<group>"; };
 		64C5D2F2226FCE3200404D1F /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C5D2F5226FCE3200404D1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64C5D2F6226FCE3200404D1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -153,6 +154,7 @@
 				64C5D32D226FD11300404D1F /* CombinationDot.m */,
 				64C5D32F226FD12D00404D1F /* CombinationStroke.h */,
 				64C5D330226FD12D00404D1F /* CombinationStroke.m */,
+				64868A6F2272734500F89401 /* MarkHeader.h */,
 			);
 			path = "组合";
 			sourceTree = "<group>";

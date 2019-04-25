@@ -11,7 +11,17 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CombinationStroke : UIView <CombinationMark>
-
+{
+    @private
+    UIColor *_color;
+    CGFloat _size;
+    NSMutableArray *_children;
+}
+@property (nonatomic, strong) UIColor *color;
+@property (nonatomic, assign) CGFloat size;
+@property (nonatomic, assign) CGPoint location;
+@property (nonatomic, assign) NSInteger count;
+@property (nonatomic, assign) id<CombinationMark> lastChild;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MarkHeader.h"
+#import "CDirector.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self markTest];
+    //[self markTest];
+    [self creatorTest];
     // Do any additional setup after loading the view.
 }
 
@@ -24,5 +26,14 @@
     //id <CombinationMark> patternTemplate = []
 }
 
+- (void)creatorTest {
+    [self showBike:[CMoBikeBuilder new]];
+    [self showBike:[OfoBikeBuilder new]];
+}
 
+- (void)showBike:(id<CBuilderInterface>)builder {
+    CDirector *director = [[CDirector alloc]initWithBuilder:builder];
+    CBike *bike = [director construct];
+    NSLog(@"%@-%@-%@\n", bike.frame, bike.seat, bike.tire);
+}
 @end

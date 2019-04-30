@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		509F228F227821550042AADA /* CDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 509F228E227821550042AADA /* CDirector.m */; };
+		509F229222782D4B0042AADA /* PCNationalBrefingHorizontalRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 509F229122782D4B0042AADA /* PCNationalBrefingHorizontalRowView.m */; };
+		50E48E6C2277F91B003E868D /* CBike.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E48E6B2277F91B003E868D /* CBike.m */; };
+		50E48E752277FB36003E868D /* CMoBikeBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E48E742277FB36003E868D /* CMoBikeBuilder.m */; };
+		50E48E7822781F0E003E868D /* OfoBikeBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E48E7722781F0E003E868D /* OfoBikeBuilder.m */; };
 		64C5D2F7226FCE3200404D1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D2F6226FCE3200404D1F /* AppDelegate.m */; };
 		64C5D2FA226FCE3200404D1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D2F9226FCE3200404D1F /* ViewController.m */; };
 		64C5D2FD226FCE3200404D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C5D2FB226FCE3200404D1F /* Main.storyboard */; };
@@ -38,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		509F228D227821550042AADA /* CDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDirector.h; sourceTree = "<group>"; };
+		509F228E227821550042AADA /* CDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDirector.m; sourceTree = "<group>"; };
+		509F229022782D4B0042AADA /* PCNationalBrefingHorizontalRowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCNationalBrefingHorizontalRowView.h; sourceTree = "<group>"; };
+		509F229122782D4B0042AADA /* PCNationalBrefingHorizontalRowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCNationalBrefingHorizontalRowView.m; sourceTree = "<group>"; };
+		509F229322782F4F0042AADA /* PCNationalBrefingHorizontalViewIBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCNationalBrefingHorizontalViewIBuilder.h; sourceTree = "<group>"; };
+		50E48E6A2277F91B003E868D /* CBike.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBike.h; sourceTree = "<group>"; };
+		50E48E6B2277F91B003E868D /* CBike.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBike.m; sourceTree = "<group>"; };
+		50E48E732277FB36003E868D /* CMoBikeBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMoBikeBuilder.h; sourceTree = "<group>"; };
+		50E48E742277FB36003E868D /* CMoBikeBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMoBikeBuilder.m; sourceTree = "<group>"; };
+		50E48E7622781F0E003E868D /* OfoBikeBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfoBikeBuilder.h; sourceTree = "<group>"; };
+		50E48E7722781F0E003E868D /* OfoBikeBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfoBikeBuilder.m; sourceTree = "<group>"; };
+		50E48E7922781FD0003E868D /* CBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBuilder.h; sourceTree = "<group>"; };
 		64868A6F2272734500F89401 /* MarkHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkHeader.h; sourceTree = "<group>"; };
 		64C5D2F2226FCE3200404D1F /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C5D2F5226FCE3200404D1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +106,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50E48E692277F8E0003E868D /* 创建者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				50E48E6A2277F91B003E868D /* CBike.h */,
+				50E48E6B2277F91B003E868D /* CBike.m */,
+				50E48E7922781FD0003E868D /* CBuilder.h */,
+				50E48E732277FB36003E868D /* CMoBikeBuilder.h */,
+				50E48E742277FB36003E868D /* CMoBikeBuilder.m */,
+				50E48E7622781F0E003E868D /* OfoBikeBuilder.h */,
+				50E48E7722781F0E003E868D /* OfoBikeBuilder.m */,
+				509F228D227821550042AADA /* CDirector.h */,
+				509F228E227821550042AADA /* CDirector.m */,
+				509F229022782D4B0042AADA /* PCNationalBrefingHorizontalRowView.h */,
+				509F229122782D4B0042AADA /* PCNationalBrefingHorizontalRowView.m */,
+				509F229322782F4F0042AADA /* PCNationalBrefingHorizontalViewIBuilder.h */,
+			);
+			path = "创建者模式";
+			sourceTree = "<group>";
+		};
 		64C5D2E9226FCE3200404D1F = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +148,7 @@
 		64C5D2F4226FCE3200404D1F /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				50E48E692277F8E0003E868D /* 创建者模式 */,
 				64C5D327226FCE6000404D1F /* 组合 */,
 				64C5D2F5226FCE3200404D1F /* AppDelegate.h */,
 				64C5D2F6226FCE3200404D1F /* AppDelegate.m */,
@@ -290,11 +327,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C5D2FA226FCE3200404D1F /* ViewController.m in Sources */,
+				509F229222782D4B0042AADA /* PCNationalBrefingHorizontalRowView.m in Sources */,
+				50E48E752277FB36003E868D /* CMoBikeBuilder.m in Sources */,
 				64C5D305226FCE3400404D1F /* main.m in Sources */,
 				64C5D2F7226FCE3200404D1F /* AppDelegate.m in Sources */,
 				64C5D32E226FD11300404D1F /* CombinationDot.m in Sources */,
+				509F228F227821550042AADA /* CDirector.m in Sources */,
 				64C5D32B226FD0A200404D1F /* CombinationVertex.m in Sources */,
+				50E48E6C2277F91B003E868D /* CBike.m in Sources */,
 				64C5D331226FD12D00404D1F /* CombinationStroke.m in Sources */,
+				50E48E7822781F0E003E868D /* OfoBikeBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

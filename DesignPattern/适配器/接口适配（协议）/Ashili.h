@@ -1,15 +1,16 @@
 //
-//  OfoBikeBuilder.h
+//  Ashili.h
 //  DesignPattern
 //
-//  Created by blm on 2019/4/30.
+//  Created by mac on 2019/5/8.
 //  Copyright © 2019 法正磊. All rights reserved.
 //
 
-#import "CBuilder.h"
+#import "AbstractAdapter.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface OfoBikeBuilder : NSObject <CBuilderInterface>
+@interface Ashili : AbstractAdapter
 
 @end
 

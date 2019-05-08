@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		509F228F227821550042AADA /* CDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 509F228E227821550042AADA /* CDirector.m */; };
-		509F229222782D4B0042AADA /* PCNationalBrefingHorizontalRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 509F229122782D4B0042AADA /* PCNationalBrefingHorizontalRowView.m */; };
 		50E48E6C2277F91B003E868D /* CBike.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E48E6B2277F91B003E868D /* CBike.m */; };
 		50E48E752277FB36003E868D /* CMoBikeBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E48E742277FB36003E868D /* CMoBikeBuilder.m */; };
 		50E48E7822781F0E003E868D /* OfoBikeBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E48E7722781F0E003E868D /* OfoBikeBuilder.m */; };
@@ -23,6 +22,15 @@
 		64C5D32B226FD0A200404D1F /* CombinationVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D32A226FD0A200404D1F /* CombinationVertex.m */; };
 		64C5D32E226FD11300404D1F /* CombinationDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D32D226FD11300404D1F /* CombinationDot.m */; };
 		64C5D331226FD12D00404D1F /* CombinationStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D330226FD12D00404D1F /* CombinationStroke.m */; };
+		F24B1E6922827AED00590773 /* Usber.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E6822827AED00590773 /* Usber.m */; };
+		F24B1E6C22827BBA00590773 /* ClassAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E6B22827BBA00590773 /* ClassAdapter.m */; };
+		F24B1E7022827F6D00590773 /* ObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E6F22827F6D00590773 /* ObjectAdapter.m */; };
+		F24B1E752282829C00590773 /* AbstractAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E742282829C00590773 /* AbstractAdapter.m */; };
+		F24B1E78228282E900590773 /* Ashili.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E77228282E900590773 /* Ashili.m */; };
+		F24B1E7D2282C4C200590773 /* GameBoyEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E7C2282C4C200590773 /* GameBoyEmulator.m */; };
+		F24B1E802282C51500590773 /* GameGearEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E7F2282C51500590773 /* GameGearEmulator.m */; };
+		F24B1E832282C58D00590773 /* ConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E822282C58D00590773 /* ConsoleController.m */; };
+		F24B1E862282C66600590773 /* TouchConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E852282C66600590773 /* TouchConsoleController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +53,6 @@
 /* Begin PBXFileReference section */
 		509F228D227821550042AADA /* CDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDirector.h; sourceTree = "<group>"; };
 		509F228E227821550042AADA /* CDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDirector.m; sourceTree = "<group>"; };
-		509F229022782D4B0042AADA /* PCNationalBrefingHorizontalRowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCNationalBrefingHorizontalRowView.h; sourceTree = "<group>"; };
-		509F229122782D4B0042AADA /* PCNationalBrefingHorizontalRowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCNationalBrefingHorizontalRowView.m; sourceTree = "<group>"; };
-		509F229322782F4F0042AADA /* PCNationalBrefingHorizontalViewIBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCNationalBrefingHorizontalViewIBuilder.h; sourceTree = "<group>"; };
 		50E48E6A2277F91B003E868D /* CBike.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBike.h; sourceTree = "<group>"; };
 		50E48E6B2277F91B003E868D /* CBike.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBike.m; sourceTree = "<group>"; };
 		50E48E732277FB36003E868D /* CMoBikeBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMoBikeBuilder.h; sourceTree = "<group>"; };
@@ -79,6 +84,28 @@
 		64C5D32D226FD11300404D1F /* CombinationDot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationDot.m; sourceTree = "<group>"; };
 		64C5D32F226FD12D00404D1F /* CombinationStroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationStroke.h; sourceTree = "<group>"; };
 		64C5D330226FD12D00404D1F /* CombinationStroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationStroke.m; sourceTree = "<group>"; };
+		F24B1E6522827A9D00590773 /* PS2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PS2.h; sourceTree = "<group>"; };
+		F24B1E6622827AAC00590773 /* USB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USB.h; sourceTree = "<group>"; };
+		F24B1E6722827AED00590773 /* Usber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Usber.h; sourceTree = "<group>"; };
+		F24B1E6822827AED00590773 /* Usber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Usber.m; sourceTree = "<group>"; };
+		F24B1E6A22827BBA00590773 /* ClassAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassAdapter.h; sourceTree = "<group>"; };
+		F24B1E6B22827BBA00590773 /* ClassAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassAdapter.m; sourceTree = "<group>"; };
+		F24B1E6E22827F6D00590773 /* ObjectAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectAdapter.h; sourceTree = "<group>"; };
+		F24B1E6F22827F6D00590773 /* ObjectAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectAdapter.m; sourceTree = "<group>"; };
+		F24B1E722282824600590773 /* AProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AProtocol.h; sourceTree = "<group>"; };
+		F24B1E732282829C00590773 /* AbstractAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractAdapter.h; sourceTree = "<group>"; };
+		F24B1E742282829C00590773 /* AbstractAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractAdapter.m; sourceTree = "<group>"; };
+		F24B1E76228282E900590773 /* Ashili.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ashili.h; sourceTree = "<group>"; };
+		F24B1E77228282E900590773 /* Ashili.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ashili.m; sourceTree = "<group>"; };
+		F24B1E7A2282C37C00590773 /* ConsoleCommands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleCommands.h; sourceTree = "<group>"; };
+		F24B1E7B2282C4C200590773 /* GameBoyEmulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameBoyEmulator.h; sourceTree = "<group>"; };
+		F24B1E7C2282C4C200590773 /* GameBoyEmulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameBoyEmulator.m; sourceTree = "<group>"; };
+		F24B1E7E2282C51500590773 /* GameGearEmulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameGearEmulator.h; sourceTree = "<group>"; };
+		F24B1E7F2282C51500590773 /* GameGearEmulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameGearEmulator.m; sourceTree = "<group>"; };
+		F24B1E812282C58D00590773 /* ConsoleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleController.h; sourceTree = "<group>"; };
+		F24B1E822282C58D00590773 /* ConsoleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleController.m; sourceTree = "<group>"; };
+		F24B1E842282C66600590773 /* TouchConsoleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchConsoleController.h; sourceTree = "<group>"; };
+		F24B1E852282C66600590773 /* TouchConsoleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchConsoleController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +145,6 @@
 				50E48E7722781F0E003E868D /* OfoBikeBuilder.m */,
 				509F228D227821550042AADA /* CDirector.h */,
 				509F228E227821550042AADA /* CDirector.m */,
-				509F229022782D4B0042AADA /* PCNationalBrefingHorizontalRowView.h */,
-				509F229122782D4B0042AADA /* PCNationalBrefingHorizontalRowView.m */,
-				509F229322782F4F0042AADA /* PCNationalBrefingHorizontalViewIBuilder.h */,
 			);
 			path = "创建者模式";
 			sourceTree = "<group>";
@@ -148,8 +172,10 @@
 		64C5D2F4226FCE3200404D1F /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F24B1E792282C34D00590773 /* 桥接模式 */,
+				F24B1E6322827A3A00590773 /* 适配器 */,
 				50E48E692277F8E0003E868D /* 创建者模式 */,
-				64C5D327226FCE6000404D1F /* 组合 */,
+				64C5D327226FCE6000404D1F /* 原型 */,
 				64C5D2F5226FCE3200404D1F /* AppDelegate.h */,
 				64C5D2F6226FCE3200404D1F /* AppDelegate.m */,
 				64C5D2F8226FCE3200404D1F /* ViewController.h */,
@@ -181,7 +207,7 @@
 			path = DesignPatternUITests;
 			sourceTree = "<group>";
 		};
-		64C5D327226FCE6000404D1F /* 组合 */ = {
+		64C5D327226FCE6000404D1F /* 原型 */ = {
 			isa = PBXGroup;
 			children = (
 				64C5D328226FCE8600404D1F /* CombinationMark.h */,
@@ -193,7 +219,67 @@
 				64C5D330226FD12D00404D1F /* CombinationStroke.m */,
 				64868A6F2272734500F89401 /* MarkHeader.h */,
 			);
-			path = "组合";
+			path = "原型";
+			sourceTree = "<group>";
+		};
+		F24B1E6322827A3A00590773 /* 适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				F24B1E6522827A9D00590773 /* PS2.h */,
+				F24B1E6622827AAC00590773 /* USB.h */,
+				F24B1E712282821E00590773 /* 接口适配（协议） */,
+				F24B1E6D22827CBE00590773 /* 对象适配 */,
+				F24B1E6422827A6700590773 /* 类适配 */,
+			);
+			path = "适配器";
+			sourceTree = "<group>";
+		};
+		F24B1E6422827A6700590773 /* 类适配 */ = {
+			isa = PBXGroup;
+			children = (
+				F24B1E6722827AED00590773 /* Usber.h */,
+				F24B1E6822827AED00590773 /* Usber.m */,
+				F24B1E6A22827BBA00590773 /* ClassAdapter.h */,
+				F24B1E6B22827BBA00590773 /* ClassAdapter.m */,
+			);
+			path = "类适配";
+			sourceTree = "<group>";
+		};
+		F24B1E6D22827CBE00590773 /* 对象适配 */ = {
+			isa = PBXGroup;
+			children = (
+				F24B1E6E22827F6D00590773 /* ObjectAdapter.h */,
+				F24B1E6F22827F6D00590773 /* ObjectAdapter.m */,
+			);
+			path = "对象适配";
+			sourceTree = "<group>";
+		};
+		F24B1E712282821E00590773 /* 接口适配（协议） */ = {
+			isa = PBXGroup;
+			children = (
+				F24B1E722282824600590773 /* AProtocol.h */,
+				F24B1E732282829C00590773 /* AbstractAdapter.h */,
+				F24B1E742282829C00590773 /* AbstractAdapter.m */,
+				F24B1E76228282E900590773 /* Ashili.h */,
+				F24B1E77228282E900590773 /* Ashili.m */,
+			);
+			path = "接口适配（协议）";
+			sourceTree = "<group>";
+		};
+		F24B1E792282C34D00590773 /* 桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				F24B1E7A2282C37C00590773 /* ConsoleCommands.h */,
+				F24B1E7B2282C4C200590773 /* GameBoyEmulator.h */,
+				F24B1E7C2282C4C200590773 /* GameBoyEmulator.m */,
+				F24B1E7E2282C51500590773 /* GameGearEmulator.h */,
+				F24B1E7F2282C51500590773 /* GameGearEmulator.m */,
+				F24B1E812282C58D00590773 /* ConsoleController.h */,
+				F24B1E822282C58D00590773 /* ConsoleController.m */,
+				F24B1E842282C66600590773 /* TouchConsoleController.h */,
+				F24B1E852282C66600590773 /* TouchConsoleController.m */,
+			);
+			path = "桥接模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,17 +412,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24B1E6C22827BBA00590773 /* ClassAdapter.m in Sources */,
+				F24B1E862282C66600590773 /* TouchConsoleController.m in Sources */,
 				64C5D2FA226FCE3200404D1F /* ViewController.m in Sources */,
-				509F229222782D4B0042AADA /* PCNationalBrefingHorizontalRowView.m in Sources */,
+				F24B1E7022827F6D00590773 /* ObjectAdapter.m in Sources */,
 				50E48E752277FB36003E868D /* CMoBikeBuilder.m in Sources */,
 				64C5D305226FCE3400404D1F /* main.m in Sources */,
 				64C5D2F7226FCE3200404D1F /* AppDelegate.m in Sources */,
 				64C5D32E226FD11300404D1F /* CombinationDot.m in Sources */,
+				F24B1E832282C58D00590773 /* ConsoleController.m in Sources */,
 				509F228F227821550042AADA /* CDirector.m in Sources */,
 				64C5D32B226FD0A200404D1F /* CombinationVertex.m in Sources */,
+				F24B1E7D2282C4C200590773 /* GameBoyEmulator.m in Sources */,
+				F24B1E752282829C00590773 /* AbstractAdapter.m in Sources */,
+				F24B1E802282C51500590773 /* GameGearEmulator.m in Sources */,
 				50E48E6C2277F91B003E868D /* CBike.m in Sources */,
 				64C5D331226FD12D00404D1F /* CombinationStroke.m in Sources */,
 				50E48E7822781F0E003E868D /* OfoBikeBuilder.m in Sources */,
+				F24B1E6922827AED00590773 /* Usber.m in Sources */,
+				F24B1E78228282E900590773 /* Ashili.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

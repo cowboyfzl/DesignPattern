@@ -9,6 +9,12 @@
 #import "ViewController.h"
 #import "MarkHeader.h"
 #import "CDirector.h"
+#import "ClassAdapter.h"
+#import "ObjectAdapter.h"
+#import "Ashili.h"
+#import "GameBoyEmulator.h"
+#import "GameGearEmulator.h"
+#import "TouchConsoleController.h"
 @interface ViewController ()
 
 @end
@@ -18,7 +24,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //[self markTest];
-    [self creatorTest];
+    //[self creatorTest];
+//    [self classAdapter];
+//    [self protocolAdapter];
+    [self bridge];
     // Do any additional setup after loading the view.
 }
 
@@ -26,9 +35,34 @@
     //id <CombinationMark> patternTemplate = []
 }
 
+- (void)bridge {
+    TouchConsoleController *gameBoyConsoleC = [[TouchConsoleController alloc]initWithConsoleCommands:[GameBoyEmulator new]];
+    [gameBoyConsoleC start];
+    
+    TouchConsoleController *gameGearConsoleC = [[TouchConsoleController alloc]initWithConsoleCommands:[GameGearEmulator new]];
+    [gameGearConsoleC select];
+}
+
+- (void)protocolAdapter {
+    Ashili *ashili = [[Ashili alloc]init];
+    [ashili a];
+    [ashili b];
+    
+}
+
 - (void)creatorTest {
     [self showBike:[CMoBikeBuilder new]];
     [self showBike:[OfoBikeBuilder new]];
+}
+
+- (void)objectAdapter {
+    ObjectAdapter *adapter = [[ObjectAdapter alloc]initWithUsber:[Usber new]];
+    [adapter ps2];
+}
+
+- (void)classAdapter {
+    ClassAdapter *adapter = [ClassAdapter new];
+    [adapter ps2];
 }
 
 - (void)showBike:(id<CBuilderInterface>)builder {

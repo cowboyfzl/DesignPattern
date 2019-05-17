@@ -22,6 +22,8 @@
 		64C5D32B226FD0A200404D1F /* CombinationVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D32A226FD0A200404D1F /* CombinationVertex.m */; };
 		64C5D32E226FD11300404D1F /* CombinationDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D32D226FD11300404D1F /* CombinationDot.m */; };
 		64C5D331226FD12D00404D1F /* CombinationStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D330226FD12D00404D1F /* CombinationStroke.m */; };
+		F237755722851ADE000B1FB9 /* ConcreteColleagueA.m in Sources */ = {isa = PBXBuildFile; fileRef = F237755622851ADE000B1FB9 /* ConcreteColleagueA.m */; };
+		F237755A22854C37000B1FB9 /* ConcreteColleagueB.m in Sources */ = {isa = PBXBuildFile; fileRef = F237755922854C37000B1FB9 /* ConcreteColleagueB.m */; };
 		F24B1E6922827AED00590773 /* Usber.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E6822827AED00590773 /* Usber.m */; };
 		F24B1E6C22827BBA00590773 /* ClassAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E6B22827BBA00590773 /* ClassAdapter.m */; };
 		F24B1E7022827F6D00590773 /* ObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E6F22827F6D00590773 /* ObjectAdapter.m */; };
@@ -31,6 +33,14 @@
 		F24B1E802282C51500590773 /* GameGearEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E7F2282C51500590773 /* GameGearEmulator.m */; };
 		F24B1E832282C58D00590773 /* ConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E822282C58D00590773 /* ConsoleController.m */; };
 		F24B1E862282C66600590773 /* TouchConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E852282C66600590773 /* TouchConsoleController.m */; };
+		F28FDE962283C30D0086F58D /* FacadeCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDE952283C30D0086F58D /* FacadeCpu.m */; };
+		F28FDE9A2283C3DC0086F58D /* FacadeDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDE992283C3DC0086F58D /* FacadeDisk.m */; };
+		F28FDE9D2283C4520086F58D /* FacadeMotherboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDE9C2283C4520086F58D /* FacadeMotherboard.m */; };
+		F28FDEA02283C4960086F58D /* FacadeComputerFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDE9F2283C4960086F58D /* FacadeComputerFunction.m */; };
+		F28FDEA32283C51D0086F58D /* FacadeComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDEA22283C51D0086F58D /* FacadeComputer.m */; };
+		F28FDEA7228405A00086F58D /* AbstractMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDEA6228405A00086F58D /* AbstractMediator.m */; };
+		F28FDEAA2284062B0086F58D /* AbstractColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDEA92284062B0086F58D /* AbstractColleague.m */; };
+		F28FDEAD2284068B0086F58D /* ConcreteMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDEAC2284068B0086F58D /* ConcreteMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +94,10 @@
 		64C5D32D226FD11300404D1F /* CombinationDot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationDot.m; sourceTree = "<group>"; };
 		64C5D32F226FD12D00404D1F /* CombinationStroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinationStroke.h; sourceTree = "<group>"; };
 		64C5D330226FD12D00404D1F /* CombinationStroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationStroke.m; sourceTree = "<group>"; };
+		F237755522851ADE000B1FB9 /* ConcreteColleagueA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteColleagueA.h; sourceTree = "<group>"; };
+		F237755622851ADE000B1FB9 /* ConcreteColleagueA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteColleagueA.m; sourceTree = "<group>"; };
+		F237755822854C37000B1FB9 /* ConcreteColleagueB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteColleagueB.h; sourceTree = "<group>"; };
+		F237755922854C37000B1FB9 /* ConcreteColleagueB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteColleagueB.m; sourceTree = "<group>"; };
 		F24B1E6522827A9D00590773 /* PS2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PS2.h; sourceTree = "<group>"; };
 		F24B1E6622827AAC00590773 /* USB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USB.h; sourceTree = "<group>"; };
 		F24B1E6722827AED00590773 /* Usber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Usber.h; sourceTree = "<group>"; };
@@ -106,6 +120,22 @@
 		F24B1E822282C58D00590773 /* ConsoleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleController.m; sourceTree = "<group>"; };
 		F24B1E842282C66600590773 /* TouchConsoleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchConsoleController.h; sourceTree = "<group>"; };
 		F24B1E852282C66600590773 /* TouchConsoleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchConsoleController.m; sourceTree = "<group>"; };
+		F28FDE942283C30D0086F58D /* FacadeCpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeCpu.h; sourceTree = "<group>"; };
+		F28FDE952283C30D0086F58D /* FacadeCpu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeCpu.m; sourceTree = "<group>"; };
+		F28FDE982283C3DC0086F58D /* FacadeDisk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeDisk.h; sourceTree = "<group>"; };
+		F28FDE992283C3DC0086F58D /* FacadeDisk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeDisk.m; sourceTree = "<group>"; };
+		F28FDE9B2283C4520086F58D /* FacadeMotherboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeMotherboard.h; sourceTree = "<group>"; };
+		F28FDE9C2283C4520086F58D /* FacadeMotherboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeMotherboard.m; sourceTree = "<group>"; };
+		F28FDE9E2283C4960086F58D /* FacadeComputerFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeComputerFunction.h; sourceTree = "<group>"; };
+		F28FDE9F2283C4960086F58D /* FacadeComputerFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeComputerFunction.m; sourceTree = "<group>"; };
+		F28FDEA12283C51D0086F58D /* FacadeComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeComputer.h; sourceTree = "<group>"; };
+		F28FDEA22283C51D0086F58D /* FacadeComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeComputer.m; sourceTree = "<group>"; };
+		F28FDEA5228405A00086F58D /* AbstractMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractMediator.h; sourceTree = "<group>"; };
+		F28FDEA6228405A00086F58D /* AbstractMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractMediator.m; sourceTree = "<group>"; };
+		F28FDEA82284062B0086F58D /* AbstractColleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractColleague.h; sourceTree = "<group>"; };
+		F28FDEA92284062B0086F58D /* AbstractColleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractColleague.m; sourceTree = "<group>"; };
+		F28FDEAB2284068B0086F58D /* ConcreteMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteMediator.h; sourceTree = "<group>"; };
+		F28FDEAC2284068B0086F58D /* ConcreteMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteMediator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +202,8 @@
 		64C5D2F4226FCE3200404D1F /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F28FDEA4228402190086F58D /* 中介者模式 */,
+				F28FDE932283C2E80086F58D /* 外观模式 */,
 				F24B1E792282C34D00590773 /* 桥接模式 */,
 				F24B1E6322827A3A00590773 /* 适配器 */,
 				50E48E692277F8E0003E868D /* 创建者模式 */,
@@ -280,6 +312,40 @@
 				F24B1E852282C66600590773 /* TouchConsoleController.m */,
 			);
 			path = "桥接模式";
+			sourceTree = "<group>";
+		};
+		F28FDE932283C2E80086F58D /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				F28FDE9E2283C4960086F58D /* FacadeComputerFunction.h */,
+				F28FDE9F2283C4960086F58D /* FacadeComputerFunction.m */,
+				F28FDE942283C30D0086F58D /* FacadeCpu.h */,
+				F28FDE952283C30D0086F58D /* FacadeCpu.m */,
+				F28FDE982283C3DC0086F58D /* FacadeDisk.h */,
+				F28FDE992283C3DC0086F58D /* FacadeDisk.m */,
+				F28FDE9B2283C4520086F58D /* FacadeMotherboard.h */,
+				F28FDE9C2283C4520086F58D /* FacadeMotherboard.m */,
+				F28FDEA12283C51D0086F58D /* FacadeComputer.h */,
+				F28FDEA22283C51D0086F58D /* FacadeComputer.m */,
+			);
+			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		F28FDEA4228402190086F58D /* 中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				F28FDEA5228405A00086F58D /* AbstractMediator.h */,
+				F28FDEA6228405A00086F58D /* AbstractMediator.m */,
+				F28FDEA82284062B0086F58D /* AbstractColleague.h */,
+				F28FDEA92284062B0086F58D /* AbstractColleague.m */,
+				F28FDEAB2284068B0086F58D /* ConcreteMediator.h */,
+				F28FDEAC2284068B0086F58D /* ConcreteMediator.m */,
+				F237755522851ADE000B1FB9 /* ConcreteColleagueA.h */,
+				F237755622851ADE000B1FB9 /* ConcreteColleagueA.m */,
+				F237755822854C37000B1FB9 /* ConcreteColleagueB.h */,
+				F237755922854C37000B1FB9 /* ConcreteColleagueB.m */,
+			);
+			path = "中介者模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,12 +478,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28FDEA02283C4960086F58D /* FacadeComputerFunction.m in Sources */,
 				F24B1E6C22827BBA00590773 /* ClassAdapter.m in Sources */,
+				F28FDEAD2284068B0086F58D /* ConcreteMediator.m in Sources */,
 				F24B1E862282C66600590773 /* TouchConsoleController.m in Sources */,
 				64C5D2FA226FCE3200404D1F /* ViewController.m in Sources */,
 				F24B1E7022827F6D00590773 /* ObjectAdapter.m in Sources */,
+				F237755722851ADE000B1FB9 /* ConcreteColleagueA.m in Sources */,
+				F237755A22854C37000B1FB9 /* ConcreteColleagueB.m in Sources */,
 				50E48E752277FB36003E868D /* CMoBikeBuilder.m in Sources */,
+				F28FDEA32283C51D0086F58D /* FacadeComputer.m in Sources */,
+				F28FDE9A2283C3DC0086F58D /* FacadeDisk.m in Sources */,
 				64C5D305226FCE3400404D1F /* main.m in Sources */,
+				F28FDEAA2284062B0086F58D /* AbstractColleague.m in Sources */,
 				64C5D2F7226FCE3200404D1F /* AppDelegate.m in Sources */,
 				64C5D32E226FD11300404D1F /* CombinationDot.m in Sources */,
 				F24B1E832282C58D00590773 /* ConsoleController.m in Sources */,
@@ -425,8 +498,11 @@
 				64C5D32B226FD0A200404D1F /* CombinationVertex.m in Sources */,
 				F24B1E7D2282C4C200590773 /* GameBoyEmulator.m in Sources */,
 				F24B1E752282829C00590773 /* AbstractAdapter.m in Sources */,
+				F28FDEA7228405A00086F58D /* AbstractMediator.m in Sources */,
 				F24B1E802282C51500590773 /* GameGearEmulator.m in Sources */,
+				F28FDE962283C30D0086F58D /* FacadeCpu.m in Sources */,
 				50E48E6C2277F91B003E868D /* CBike.m in Sources */,
+				F28FDE9D2283C4520086F58D /* FacadeMotherboard.m in Sources */,
 				64C5D331226FD12D00404D1F /* CombinationStroke.m in Sources */,
 				50E48E7822781F0E003E868D /* OfoBikeBuilder.m in Sources */,
 				F24B1E6922827AED00590773 /* Usber.m in Sources */,

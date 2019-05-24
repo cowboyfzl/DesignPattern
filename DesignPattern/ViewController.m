@@ -19,6 +19,22 @@
 #import "ConcreteMediator.h"
 #import "ConcreteColleagueA.h"
 #import "ConcreteColleagueB.h"
+#import "AccountBookStructure.h"
+#import "ConsumerBill.h"
+#import "IncomeBill.h"
+#import "Boss.h"
+#import "Accounting.h"
+#import "Ham.h"
+#import "FiredEgg.h"
+#import "TornCake.h"
+#import "Roujiamo.h"
+#import "SwordAttack.h"
+#import "MagicFireAttack.h"
+#import "LightingAttack.h"
+#import "MetalArmor.h"
+#import "CrystalShield.h"
+#import "Avatar.h"
+
 @interface ViewController ()
 
 @end
@@ -33,8 +49,130 @@
 //    [self protocolAdapter];
    // [self bridge];
    // [self facade];
-    [self mediator];
+    //[self mediator];
+    //[self visitorModel];
+    //[self decorator];
+    [self chainOfResponsibilityPattern];
     // Do any additional setup after loading the view.
+}
+/**
+ 顾名思义，责任链模式（Chain of Responsibility Pattern）为请求创建了一个接收者对象的链。这种模式给予请求的类型，对请求的发送者和接收者进行解耦。这种类型的设计模式属于行为型模式。
+ 在这种模式中，通常每个接收者都包含对另一个接收者的引用。如果一个对象不能处理该请求，那么它会把相同的请求传给下一个接收者，依此类推。
+ 
+ 意图：避免请求发送者与接收者耦合在一起，让多个对象都有可能接收请求，将这些对象连接成一条链，并且沿着这条链传递请求，直到有对象处理它为止。
+ 主要解决：职责链上的处理者负责处理请求，客户只需要将请求发送到职责链上即可，无须关心请求的处理细节和请求的传递，所以职责链将请求的发送者和请求的处理者解耦了。
+ 何时使用：在处理消息的时候以过滤很多道。
+ 如何解决：拦截的类都实现统一接口。
+ 关键代码：Handler 里面聚合它自己，在 HandlerRequest 里判断是否合适，如果没达到条件则向下传递，向谁传递之前 set 进去。
+ 应用实例： 1、红楼梦中的"击鼓传花"。 2、JS 中的事件冒泡。 3、JAVA WEB 中 Apache Tomcat 对 Encoding 的处理，Struts2 的拦截器，jsp servlet 的 Filter。
+ 优点： 1、降低耦合度。它将请求的发送者和接收者解耦。 2、简化了对象。使得对象不需要知道链的结构。 3、增强给对象指派职责的灵活性。通过改变链内的成员或者调动它们的次序，允许动态地新增或者删除责任。 4、增加新的请求处理类很方便。
+ 缺点： 1、不能保证请求一定被接收。 2、系统性能将受到一定影响，而且在进行代码调试时不太方便，可能会造成循环调用。 3、可能不容易观察运行时的特征，有碍于除错。
+ 使用场景： 1、有多个对象可以处理同一个请求，具体哪个对象处理该请求由运行时刻自动确定。 2、在不明确指定接收者的情况下，向多个对象中的一个提交一个请求。 3、可动态指定一组对象处理请求。
+ */
+- (void)chainOfResponsibilityPattern {
+    AttackHandler *avatar = [Avatar new];
+    AttackHandler *metalArmorAvatar = [MetalArmor new];
+    [metalArmorAvatar setNextAttack:avatar];
+    
+    AttackHandler *superAvatar = [CrystalShield new];
+    [superAvatar setNextAttack:metalArmorAvatar];
+    
+    Attack *swordAttack = [SwordAttack new];
+    [superAvatar handleAttack:swordAttack];
+    
+    Attack *magicAttack = [MagicFireAttack new];
+    [superAvatar handleAttack:magicAttack];
+    
+    Attack *lightingAttack = [LightingAttack new];
+    [superAvatar handleAttack:lightingAttack];
+}
+
+/**
+ 、意图： 动态地给一个对象添加一些额外的职责。就增加功能来说， Decorator模式相比生成子类更为灵活。该模式以对客 户端透明的方式扩展对象的功能。
+ 
+ 2、适用环境
+ 
+ （1）在不影响其他对象的情况下，以动态、透明的方式给单个对象添加职责。
+ 
+ （2）处理那些可以撤消的职责。
+ 
+ （3）当不能采用生成子类的方法进行扩充时。一种情况是，可能有大量独立的扩展，为支持每一种组合将产生大量的 子类，使得子类数目呈爆炸性增长。另一种情况可能是因为类定义被隐藏，或类定义不能用于生成子类。
+ 
+ 3、参与者
+ 
+ 1.Component（被装饰对象的基类）
+ 
+ 定义一个对象接口，可以给这些对象动态地添加职责。
+ 
+ 2.ConcreteComponent（具体被装饰对象）
+ 
+ 定义一个对象，可以给这个对象添加一些职责。
+ 
+ 3.Decorator（装饰者抽象类）
+ 
+ 维持一个指向Component实例的引用，并定义一个与Component接口一致的接口。
+ 
+ 4.ConcreteDecorator（具体装饰者）
+ 
+ 具体的装饰对象，给内部持有的具体被装饰对象，增加具体的职责。
+ */
+- (void)decorator {
+    PanCake *tornCake = [[TornCake alloc]init];
+    NSLog(@"%@基础价%f", tornCake.desc, tornCake.price);
+    tornCake = [[FiredEgg alloc]initWithPancake:tornCake];
+    tornCake = [[Ham alloc]initWithPancake:tornCake];
+    NSLog(@"%@，%f", [tornCake getDesc], [tornCake price]);
+    
+}
+
+/**
+模式的定义与特点
+
+访问者（Visitor）模式的定义：将作用于某种数据结构中的各元素的操作分离出来封装成独立的类，使其在不改变数据结构的前提下可以添加作用于这些元素的新的操作，为数据结构中的每个元素提供多种访问方式。它将对数据的操作与数据结构进行分离，是行为类模式中最复杂的一种模式。
+
+访问者（Visitor）模式是一种对象行为型模式，其主要优点如下。
+扩展性好。能够在不修改对象结构中的元素的情况下，为对象结构中的元素添加新的功能。
+复用性好。可以通过访问者来定义整个对象结构通用的功能，从而提高系统的复用程度。
+灵活性好。访问者模式将数据结构与作用于结构上的操作解耦，使得操作集合可相对自由地演化而不影响系统的数据结构。
+符合单一职责原则。访问者模式把相关的行为封装在一起，构成一个访问者，使每一个访问者的功能都比较单一。
+
+访问者（Visitor）模式的主要缺点如下。
+增加新的元素类很困难。在访问者模式中，每增加一个新的元素类，都要在每一个具体访问者类中增加相应的具体操作，这违背了“开闭原则”。
+破坏封装。访问者模式中具体元素对访问者公布细节，这破坏了对象的封装性。
+违反了依赖倒置原则。访问者模式依赖了具体类，而没有依赖抽象类。
+模式的结构与实现
+
+访问者（Visitor）模式实现的关键是如何将作用于元素的操作分离出来封装成独立的类，其基本结构与实现方法如下。
+1. 模式的结构
+
+访问者模式包含以下主要角色。
+抽象访问者（Visitor）角色：定义一个访问具体元素的接口，为每个具体元素类对应一个访问操作 visit() ，该操作中的参数类型标识了被访问的具体元素。
+具体访问者（ConcreteVisitor）角色：实现抽象访问者角色中声明的各个访问操作，确定访问者访问一个元素时该做什么。
+抽象元素（Element）角色：声明一个包含接受操作 accept() 的接口，被接受的访问者对象作为 accept() 方法的参数。
+具体元素（ConcreteElement）角色：实现抽象元素角色提供的 accept() 操作，其方法体通常都是 visitor.visit(this) ，另外具体元素中可能还包含本身业务逻辑的相关操作。
+对象结构（Object Structure）角色：是一个包含元素角色的容器，提供让访问者对象遍历容器中的所有元素的方法，通常由 List、Set、Map 等聚合类实现。
+  */
+
+- (void)visitorModel {
+     // 创建消费和收入单子
+    id<Bill> consumerBill = [[ConsumerBill alloc]initWithItem:@"消费" amount:5000];
+    id<Bill> inComeBill = [[IncomeBill alloc]initWithItem:@"收入" amount:2000];
+    id<Bill> consumerBill2 = [[ConsumerBill alloc]initWithItem:@"消费" amount:1000];
+    id<Bill> inComeBill2 = [[IncomeBill alloc]initWithItem:@"收入" amount:3000];
+    
+    /// 添加账单
+    AccountBookStructure *accountBookStructure = [[AccountBookStructure alloc]init];
+    [accountBookStructure addBill:consumerBill];
+    [accountBookStructure addBill:inComeBill];
+    [accountBookStructure addBill:consumerBill2];
+    [accountBookStructure addBill:inComeBill2];
+    
+    Boss *boss = [Boss new];
+    Accounting *accounting = [Accounting new];
+    [accountBookStructure show:boss];
+    [accountBookStructure show:accounting];
+    [boss getTotalConsumer];
+    [boss getTotalIncome];
 }
 
 /**

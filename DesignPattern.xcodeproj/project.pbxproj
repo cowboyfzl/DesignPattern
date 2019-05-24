@@ -24,6 +24,12 @@
 		64C5D331226FD12D00404D1F /* CombinationStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D330226FD12D00404D1F /* CombinationStroke.m */; };
 		F237755722851ADE000B1FB9 /* ConcreteColleagueA.m in Sources */ = {isa = PBXBuildFile; fileRef = F237755622851ADE000B1FB9 /* ConcreteColleagueA.m */; };
 		F237755A22854C37000B1FB9 /* ConcreteColleagueB.m in Sources */ = {isa = PBXBuildFile; fileRef = F237755922854C37000B1FB9 /* ConcreteColleagueB.m */; };
+		F2488F5322967EE500FE24F5 /* TornCake.m in Sources */ = {isa = PBXBuildFile; fileRef = F2488F5222967EE400FE24F5 /* TornCake.m */; };
+		F2488F562296807400FE24F5 /* PanCake.m in Sources */ = {isa = PBXBuildFile; fileRef = F2488F552296807400FE24F5 /* PanCake.m */; };
+		F2488F592296830C00FE24F5 /* Roujiamo.m in Sources */ = {isa = PBXBuildFile; fileRef = F2488F582296830C00FE24F5 /* Roujiamo.m */; };
+		F2488F5C2296858B00FE24F5 /* Condiment.m in Sources */ = {isa = PBXBuildFile; fileRef = F2488F5B2296858A00FE24F5 /* Condiment.m */; };
+		F2488F5F22968A2600FE24F5 /* FiredEgg.m in Sources */ = {isa = PBXBuildFile; fileRef = F2488F5E22968A2600FE24F5 /* FiredEgg.m */; };
+		F2488F6222968A3D00FE24F5 /* Ham.m in Sources */ = {isa = PBXBuildFile; fileRef = F2488F6122968A3D00FE24F5 /* Ham.m */; };
 		F24B1E6922827AED00590773 /* Usber.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E6822827AED00590773 /* Usber.m */; };
 		F24B1E6C22827BBA00590773 /* ClassAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E6B22827BBA00590773 /* ClassAdapter.m */; };
 		F24B1E7022827F6D00590773 /* ObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E6F22827F6D00590773 /* ObjectAdapter.m */; };
@@ -33,6 +39,13 @@
 		F24B1E802282C51500590773 /* GameGearEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E7F2282C51500590773 /* GameGearEmulator.m */; };
 		F24B1E832282C58D00590773 /* ConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E822282C58D00590773 /* ConsoleController.m */; };
 		F24B1E862282C66600590773 /* TouchConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B1E852282C66600590773 /* TouchConsoleController.m */; };
+		F2557CBC2295376000BE739D /* ConsumerBill.m in Sources */ = {isa = PBXBuildFile; fileRef = F2557CBB2295376000BE739D /* ConsumerBill.m */; };
+		F2557CBF2295393D00BE739D /* IncomeBill.m in Sources */ = {isa = PBXBuildFile; fileRef = F2557CBE2295393D00BE739D /* IncomeBill.m */; };
+		F2557CC222953CF700BE739D /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = F2557CC122953CF700BE739D /* Boss.m */; };
+		F2557CC522953D4800BE739D /* Accounting.m in Sources */ = {isa = PBXBuildFile; fileRef = F2557CC422953D4800BE739D /* Accounting.m */; };
+		F2557CCC22954F0300BE739D /* AccountBookStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = F2557CCB22954F0300BE739D /* AccountBookStructure.m */; };
+		F25DF0192297C62C00EC2D0E /* CrystalShield.m in Sources */ = {isa = PBXBuildFile; fileRef = F25DF0182297C62C00EC2D0E /* CrystalShield.m */; };
+		F25DF01C2297C64100EC2D0E /* Avatar.m in Sources */ = {isa = PBXBuildFile; fileRef = F25DF01B2297C64100EC2D0E /* Avatar.m */; };
 		F28FDE962283C30D0086F58D /* FacadeCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDE952283C30D0086F58D /* FacadeCpu.m */; };
 		F28FDE9A2283C3DC0086F58D /* FacadeDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDE992283C3DC0086F58D /* FacadeDisk.m */; };
 		F28FDE9D2283C4520086F58D /* FacadeMotherboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDE9C2283C4520086F58D /* FacadeMotherboard.m */; };
@@ -41,6 +54,12 @@
 		F28FDEA7228405A00086F58D /* AbstractMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDEA6228405A00086F58D /* AbstractMediator.m */; };
 		F28FDEAA2284062B0086F58D /* AbstractColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDEA92284062B0086F58D /* AbstractColleague.m */; };
 		F28FDEAD2284068B0086F58D /* ConcreteMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FDEAC2284068B0086F58D /* ConcreteMediator.m */; };
+		F2CF21A322978DA100358C7D /* Attack.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF21A222978DA100358C7D /* Attack.m */; };
+		F2CF21A622978DE900358C7D /* SwordAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF21A522978DE900358C7D /* SwordAttack.m */; };
+		F2CF21A922978E0600358C7D /* MagicFireAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF21A822978E0600358C7D /* MagicFireAttack.m */; };
+		F2CF21AC22978E1700358C7D /* LightingAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF21AB22978E1700358C7D /* LightingAttack.m */; };
+		F2CF21AF22978E3C00358C7D /* AttackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF21AE22978E3C00358C7D /* AttackHandler.m */; };
+		F2CF21B222978FA100358C7D /* MetalArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF21B122978FA100358C7D /* MetalArmor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +117,18 @@
 		F237755622851ADE000B1FB9 /* ConcreteColleagueA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteColleagueA.m; sourceTree = "<group>"; };
 		F237755822854C37000B1FB9 /* ConcreteColleagueB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteColleagueB.h; sourceTree = "<group>"; };
 		F237755922854C37000B1FB9 /* ConcreteColleagueB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteColleagueB.m; sourceTree = "<group>"; };
+		F2488F5122967EE400FE24F5 /* TornCake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TornCake.h; sourceTree = "<group>"; };
+		F2488F5222967EE400FE24F5 /* TornCake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TornCake.m; sourceTree = "<group>"; };
+		F2488F542296807400FE24F5 /* PanCake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanCake.h; sourceTree = "<group>"; };
+		F2488F552296807400FE24F5 /* PanCake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanCake.m; sourceTree = "<group>"; };
+		F2488F572296830C00FE24F5 /* Roujiamo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Roujiamo.h; sourceTree = "<group>"; };
+		F2488F582296830C00FE24F5 /* Roujiamo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Roujiamo.m; sourceTree = "<group>"; };
+		F2488F5A2296858A00FE24F5 /* Condiment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Condiment.h; sourceTree = "<group>"; };
+		F2488F5B2296858A00FE24F5 /* Condiment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Condiment.m; sourceTree = "<group>"; };
+		F2488F5D22968A2600FE24F5 /* FiredEgg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiredEgg.h; sourceTree = "<group>"; };
+		F2488F5E22968A2600FE24F5 /* FiredEgg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiredEgg.m; sourceTree = "<group>"; };
+		F2488F6022968A3D00FE24F5 /* Ham.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ham.h; sourceTree = "<group>"; };
+		F2488F6122968A3D00FE24F5 /* Ham.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ham.m; sourceTree = "<group>"; };
 		F24B1E6522827A9D00590773 /* PS2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PS2.h; sourceTree = "<group>"; };
 		F24B1E6622827AAC00590773 /* USB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USB.h; sourceTree = "<group>"; };
 		F24B1E6722827AED00590773 /* Usber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Usber.h; sourceTree = "<group>"; };
@@ -120,6 +151,22 @@
 		F24B1E822282C58D00590773 /* ConsoleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleController.m; sourceTree = "<group>"; };
 		F24B1E842282C66600590773 /* TouchConsoleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchConsoleController.h; sourceTree = "<group>"; };
 		F24B1E852282C66600590773 /* TouchConsoleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchConsoleController.m; sourceTree = "<group>"; };
+		F2557CB8229536AF00BE739D /* Bill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bill.h; sourceTree = "<group>"; };
+		F2557CB92295372E00BE739D /* AccountBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountBook.h; sourceTree = "<group>"; };
+		F2557CBA2295376000BE739D /* ConsumerBill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsumerBill.h; sourceTree = "<group>"; };
+		F2557CBB2295376000BE739D /* ConsumerBill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsumerBill.m; sourceTree = "<group>"; };
+		F2557CBD2295393D00BE739D /* IncomeBill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IncomeBill.h; sourceTree = "<group>"; };
+		F2557CBE2295393D00BE739D /* IncomeBill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IncomeBill.m; sourceTree = "<group>"; };
+		F2557CC022953CF700BE739D /* Boss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		F2557CC122953CF700BE739D /* Boss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
+		F2557CC322953D4800BE739D /* Accounting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Accounting.h; sourceTree = "<group>"; };
+		F2557CC422953D4800BE739D /* Accounting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Accounting.m; sourceTree = "<group>"; };
+		F2557CCA22954F0300BE739D /* AccountBookStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountBookStructure.h; sourceTree = "<group>"; };
+		F2557CCB22954F0300BE739D /* AccountBookStructure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountBookStructure.m; sourceTree = "<group>"; };
+		F25DF0172297C62C00EC2D0E /* CrystalShield.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrystalShield.h; sourceTree = "<group>"; };
+		F25DF0182297C62C00EC2D0E /* CrystalShield.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalShield.m; sourceTree = "<group>"; };
+		F25DF01A2297C64100EC2D0E /* Avatar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Avatar.h; sourceTree = "<group>"; };
+		F25DF01B2297C64100EC2D0E /* Avatar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Avatar.m; sourceTree = "<group>"; };
 		F28FDE942283C30D0086F58D /* FacadeCpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeCpu.h; sourceTree = "<group>"; };
 		F28FDE952283C30D0086F58D /* FacadeCpu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeCpu.m; sourceTree = "<group>"; };
 		F28FDE982283C3DC0086F58D /* FacadeDisk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeDisk.h; sourceTree = "<group>"; };
@@ -136,6 +183,18 @@
 		F28FDEA92284062B0086F58D /* AbstractColleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractColleague.m; sourceTree = "<group>"; };
 		F28FDEAB2284068B0086F58D /* ConcreteMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteMediator.h; sourceTree = "<group>"; };
 		F28FDEAC2284068B0086F58D /* ConcreteMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteMediator.m; sourceTree = "<group>"; };
+		F2CF21A122978DA100358C7D /* Attack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Attack.h; sourceTree = "<group>"; };
+		F2CF21A222978DA100358C7D /* Attack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Attack.m; sourceTree = "<group>"; };
+		F2CF21A422978DE900358C7D /* SwordAttack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwordAttack.h; sourceTree = "<group>"; };
+		F2CF21A522978DE900358C7D /* SwordAttack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwordAttack.m; sourceTree = "<group>"; };
+		F2CF21A722978E0600358C7D /* MagicFireAttack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicFireAttack.h; sourceTree = "<group>"; };
+		F2CF21A822978E0600358C7D /* MagicFireAttack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicFireAttack.m; sourceTree = "<group>"; };
+		F2CF21AA22978E1700358C7D /* LightingAttack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightingAttack.h; sourceTree = "<group>"; };
+		F2CF21AB22978E1700358C7D /* LightingAttack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightingAttack.m; sourceTree = "<group>"; };
+		F2CF21AD22978E3C00358C7D /* AttackHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttackHandler.h; sourceTree = "<group>"; };
+		F2CF21AE22978E3C00358C7D /* AttackHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttackHandler.m; sourceTree = "<group>"; };
+		F2CF21B022978FA100358C7D /* MetalArmor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalArmor.h; sourceTree = "<group>"; };
+		F2CF21B122978FA100358C7D /* MetalArmor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalArmor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +261,10 @@
 		64C5D2F4226FCE3200404D1F /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F25DF01D2297F26100EC2D0E /* 模板模式 */,
+				F2CF21A022978D7900358C7D /* 责任链模式 */,
+				F2488F4F22967D9500FE24F5 /* 装饰者模式 */,
+				F2557CB72295366800BE739D /* 访问者模式 */,
 				F28FDEA4228402190086F58D /* 中介者模式 */,
 				F28FDE932283C2E80086F58D /* 外观模式 */,
 				F24B1E792282C34D00590773 /* 桥接模式 */,
@@ -252,6 +315,25 @@
 				64868A6F2272734500F89401 /* MarkHeader.h */,
 			);
 			path = "原型";
+			sourceTree = "<group>";
+		};
+		F2488F4F22967D9500FE24F5 /* 装饰者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				F2488F542296807400FE24F5 /* PanCake.h */,
+				F2488F552296807400FE24F5 /* PanCake.m */,
+				F2488F5122967EE400FE24F5 /* TornCake.h */,
+				F2488F5222967EE400FE24F5 /* TornCake.m */,
+				F2488F572296830C00FE24F5 /* Roujiamo.h */,
+				F2488F582296830C00FE24F5 /* Roujiamo.m */,
+				F2488F5A2296858A00FE24F5 /* Condiment.h */,
+				F2488F5B2296858A00FE24F5 /* Condiment.m */,
+				F2488F5D22968A2600FE24F5 /* FiredEgg.h */,
+				F2488F5E22968A2600FE24F5 /* FiredEgg.m */,
+				F2488F6022968A3D00FE24F5 /* Ham.h */,
+				F2488F6122968A3D00FE24F5 /* Ham.m */,
+			);
+			path = "装饰者模式";
 			sourceTree = "<group>";
 		};
 		F24B1E6322827A3A00590773 /* 适配器 */ = {
@@ -314,6 +396,32 @@
 			path = "桥接模式";
 			sourceTree = "<group>";
 		};
+		F2557CB72295366800BE739D /* 访问者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				F2557CB8229536AF00BE739D /* Bill.h */,
+				F2557CBA2295376000BE739D /* ConsumerBill.h */,
+				F2557CBB2295376000BE739D /* ConsumerBill.m */,
+				F2557CBD2295393D00BE739D /* IncomeBill.h */,
+				F2557CBE2295393D00BE739D /* IncomeBill.m */,
+				F2557CB92295372E00BE739D /* AccountBook.h */,
+				F2557CC022953CF700BE739D /* Boss.h */,
+				F2557CC122953CF700BE739D /* Boss.m */,
+				F2557CC322953D4800BE739D /* Accounting.h */,
+				F2557CC422953D4800BE739D /* Accounting.m */,
+				F2557CCA22954F0300BE739D /* AccountBookStructure.h */,
+				F2557CCB22954F0300BE739D /* AccountBookStructure.m */,
+			);
+			path = "访问者模式";
+			sourceTree = "<group>";
+		};
+		F25DF01D2297F26100EC2D0E /* 模板模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "模板模式";
+			sourceTree = "<group>";
+		};
 		F28FDE932283C2E80086F58D /* 外观模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +454,29 @@
 				F237755922854C37000B1FB9 /* ConcreteColleagueB.m */,
 			);
 			path = "中介者模式";
+			sourceTree = "<group>";
+		};
+		F2CF21A022978D7900358C7D /* 责任链模式 */ = {
+			isa = PBXGroup;
+			children = (
+				F2CF21A122978DA100358C7D /* Attack.h */,
+				F2CF21A222978DA100358C7D /* Attack.m */,
+				F2CF21A422978DE900358C7D /* SwordAttack.h */,
+				F2CF21A522978DE900358C7D /* SwordAttack.m */,
+				F2CF21A722978E0600358C7D /* MagicFireAttack.h */,
+				F2CF21A822978E0600358C7D /* MagicFireAttack.m */,
+				F2CF21AA22978E1700358C7D /* LightingAttack.h */,
+				F2CF21AB22978E1700358C7D /* LightingAttack.m */,
+				F2CF21AD22978E3C00358C7D /* AttackHandler.h */,
+				F2CF21AE22978E3C00358C7D /* AttackHandler.m */,
+				F2CF21B022978FA100358C7D /* MetalArmor.h */,
+				F2CF21B122978FA100358C7D /* MetalArmor.m */,
+				F25DF0172297C62C00EC2D0E /* CrystalShield.h */,
+				F25DF0182297C62C00EC2D0E /* CrystalShield.m */,
+				F25DF01A2297C64100EC2D0E /* Avatar.h */,
+				F25DF01B2297C64100EC2D0E /* Avatar.m */,
+			);
+			path = "责任链模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,8 +609,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2557CBC2295376000BE739D /* ConsumerBill.m in Sources */,
 				F28FDEA02283C4960086F58D /* FacadeComputerFunction.m in Sources */,
 				F24B1E6C22827BBA00590773 /* ClassAdapter.m in Sources */,
+				F2488F5C2296858B00FE24F5 /* Condiment.m in Sources */,
+				F2CF21A322978DA100358C7D /* Attack.m in Sources */,
+				F2CF21A922978E0600358C7D /* MagicFireAttack.m in Sources */,
+				F2488F562296807400FE24F5 /* PanCake.m in Sources */,
 				F28FDEAD2284068B0086F58D /* ConcreteMediator.m in Sources */,
 				F24B1E862282C66600590773 /* TouchConsoleController.m in Sources */,
 				64C5D2FA226FCE3200404D1F /* ViewController.m in Sources */,
@@ -488,25 +624,39 @@
 				F237755A22854C37000B1FB9 /* ConcreteColleagueB.m in Sources */,
 				50E48E752277FB36003E868D /* CMoBikeBuilder.m in Sources */,
 				F28FDEA32283C51D0086F58D /* FacadeComputer.m in Sources */,
+				F2488F592296830C00FE24F5 /* Roujiamo.m in Sources */,
 				F28FDE9A2283C3DC0086F58D /* FacadeDisk.m in Sources */,
+				F2557CCC22954F0300BE739D /* AccountBookStructure.m in Sources */,
+				F25DF01C2297C64100EC2D0E /* Avatar.m in Sources */,
 				64C5D305226FCE3400404D1F /* main.m in Sources */,
 				F28FDEAA2284062B0086F58D /* AbstractColleague.m in Sources */,
+				F2CF21A622978DE900358C7D /* SwordAttack.m in Sources */,
 				64C5D2F7226FCE3200404D1F /* AppDelegate.m in Sources */,
+				F2CF21AF22978E3C00358C7D /* AttackHandler.m in Sources */,
 				64C5D32E226FD11300404D1F /* CombinationDot.m in Sources */,
 				F24B1E832282C58D00590773 /* ConsoleController.m in Sources */,
 				509F228F227821550042AADA /* CDirector.m in Sources */,
+				F2557CC522953D4800BE739D /* Accounting.m in Sources */,
+				F2488F5F22968A2600FE24F5 /* FiredEgg.m in Sources */,
 				64C5D32B226FD0A200404D1F /* CombinationVertex.m in Sources */,
 				F24B1E7D2282C4C200590773 /* GameBoyEmulator.m in Sources */,
+				F2CF21AC22978E1700358C7D /* LightingAttack.m in Sources */,
 				F24B1E752282829C00590773 /* AbstractAdapter.m in Sources */,
 				F28FDEA7228405A00086F58D /* AbstractMediator.m in Sources */,
 				F24B1E802282C51500590773 /* GameGearEmulator.m in Sources */,
 				F28FDE962283C30D0086F58D /* FacadeCpu.m in Sources */,
+				F25DF0192297C62C00EC2D0E /* CrystalShield.m in Sources */,
+				F2488F6222968A3D00FE24F5 /* Ham.m in Sources */,
+				F2557CC222953CF700BE739D /* Boss.m in Sources */,
 				50E48E6C2277F91B003E868D /* CBike.m in Sources */,
+				F2488F5322967EE500FE24F5 /* TornCake.m in Sources */,
 				F28FDE9D2283C4520086F58D /* FacadeMotherboard.m in Sources */,
 				64C5D331226FD12D00404D1F /* CombinationStroke.m in Sources */,
 				50E48E7822781F0E003E868D /* OfoBikeBuilder.m in Sources */,
 				F24B1E6922827AED00590773 /* Usber.m in Sources */,
+				F2CF21B222978FA100358C7D /* MetalArmor.m in Sources */,
 				F24B1E78228282E900590773 /* Ashili.m in Sources */,
+				F2557CBF2295393D00BE739D /* IncomeBill.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
